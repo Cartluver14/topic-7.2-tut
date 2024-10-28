@@ -45,11 +45,46 @@ namespace topic_7._2_tut
 
 
             //Part 2
-            for (int i = -10; i < 12; i+=2)
+            //for (int i = -10; i < 12; i+=2)
+            // {
+            //   Console.WriteLine(i);Console.WriteLine(i*i);
+            // }
+            //   Console.ReadLine();
+
+            string name;
+
+            Console.WriteLine("What is your name?");
+            name = Console.ReadLine();
+            if (name == "aldworth")
             {
-                Console.WriteLine(i);Console.WriteLine(i*i);
-           }
-            Console.ReadLine();
+                for (int i = 1; i <= 5; i = i + 1)
+                {
+
+                    Console.WriteLine(i + ". " + name);
+                }
+                Console.ReadLine();
+
+
+           
+
+            }
+            else
+            {
+                for (int i = 1; i <= 10; i = i + 1)
+                {
+
+                    Console.WriteLine(i + ". " + name);
+                }
+                Console.ReadLine();
+
+
+            }
+
+
+
+
+
+
 
 
 
